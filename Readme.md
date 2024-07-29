@@ -1,4 +1,4 @@
-# @openedu/logger
+# @himanshu806/logger
 
 ## Description
 
@@ -7,7 +7,7 @@ NPM package to log your applications efficiently.
 ## Installation
 
 ```bash
-npm i @openedu/logger
+npm i @himanshu806/logger
 ```
 
 ## Usage
