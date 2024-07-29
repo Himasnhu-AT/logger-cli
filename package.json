@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "dev": "tsc && node dist/sample.js",
     "local": "tsc && pnpm link --global logger-cli",
     "test": "jest"
   },
@@ -29,6 +30,7 @@
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.12",
     "jest": "^29.7.0",
-    "ts-jest": "^29.2.3"
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2"
   }
 }

@@ -1,4 +1,4 @@
-class bcolors {
+export default class bcolors {
   static HEADER = "\x1b[95m";
   static OKBLUE = "\x1b[94m";
   static OKCYAN = "\x1b[96m";
