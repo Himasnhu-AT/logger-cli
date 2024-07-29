@@ -1,6 +1,6 @@
 {
   "name": "@openedu/logger",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Amazing logger for cli and file with full customizability",
   "main": "dist/index.js",
   "private": false,
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/himasnhu-at/@openedu/logger.git"
+    "url": "https://github.com/himasnhu-at/openedu-logger.js.git"
   },
   "keywords": [
     "logger",
@@ -25,12 +25,17 @@
     "cli",
     "file"
   ],
-  "author": "himanshu <hyattherate2005@gmail.com> (https://github.com/himasnhu-at)",
+  "author": {
+    "name": "Himanshu",
+    "email": "hyattherate2005@gmail.com",
+    "url": "https://github.com/himasnhu-at",
+    "github": "himasnhu-at"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/himasnhu-at/@openedu/logger/issues"
+    "url": "https://github.com/himasnhu-at/openedu-logger.js/issues"
   },
-  "homepage": "https://github.com/himasnhu-at/@openedu/logger#readme",
+  "homepage": "https://github.com/himasnhu-at/openedu-logger.js#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.12",
