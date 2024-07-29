@@ -1,5 +1,5 @@
 {
-  "name": "@openedu/logger",
+  "name": "@himanshu806/logger",
   "version": "0.2.0",
   "description": "Amazing logger for cli and file with full customizability",
   "main": "dist/index.js",
@@ -10,18 +10,16 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc && node dist/sample.js",
-    "local": "tsc && pnpm link --global @openedu/logger",
+    "local": "tsc && pnpm link --global @himanshu806/logger",
     "test": "jest",
     "test:cov": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/himasnhu-at/openedu-logger.js.git"
+    "url": "https://github.com/himasnhu-at/logger.js.git"
   },
   "keywords": [
     "logger",
-    "@openedu/logger",
-    "nice",
     "cli",
     "file"
   ],
@@ -33,9 +31,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/himasnhu-at/openedu-logger.js/issues"
+    "url": "https://github.com/himasnhu-at/logger.js/issues"
   },
-  "homepage": "https://github.com/himasnhu-at/openedu-logger.js#readme",
+  "homepage": "https://github.com/himasnhu-at/logger.js#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.12",
