@@ -1,4 +1,4 @@
-# Logger-CLI
+# @openedu/logger
 
 ## Description
 
@@ -7,7 +7,7 @@ NPM package to log your applications efficiently.
 ## Installation
 
 ```bash
-npm i logger-cli
+npm i @openedu/logger
 ```
 
 ## Usage

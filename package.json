@@ -1,36 +1,36 @@
 {
-  "name": "logger-cli",
+  "name": "@openedu/logger",
   "version": "0.1.0",
   "description": "Amazing logger for cli and file with full customizability",
   "main": "dist/index.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc && node dist/sample.js",
-    "local": "tsc && pnpm link --global logger-cli",
-    "test": "jest"
+    "local": "tsc && pnpm link --global @openedu/logger",
+    "test": "jest",
+    "test:cov": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/himasnhu-at/logger-cli.git"
+    "url": "git+https://github.com/himasnhu-at/@openedu/logger.git"
   },
   "keywords": [
     "logger",
-    "logger-cli",
+    "@openedu/logger",
     "nice",
     "cli",
     "file"
   ],
-  "author": {
-    "name": "himanshu",
-    "email": "hyattherate2005@gmail.com",
-    "github": "himasnhu-at",
-    "url": "https://github.com/himasnhu-at"
-  },
+  "author": "himanshu <hyattherate2005@gmail.com> (https://github.com/himasnhu-at)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/himasnhu-at/logger-cli/issues"
+    "url": "https://github.com/himasnhu-at/@openedu/logger/issues"
   },
-  "homepage": "https://github.com/himasnhu-at/logger-cli#readme",
+  "homepage": "https://github.com/himasnhu-at/@openedu/logger#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.12",
