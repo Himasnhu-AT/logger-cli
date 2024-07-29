@@ -20,7 +20,12 @@
     "cli",
     "file"
   ],
-  "author": "himasnhu-at <git: Himasnhu-at>",
+  "author": {
+    "name": "himanshu",
+    "email": "hyattherate2005@gmail.com",
+    "github": "himasnhu-at",
+    "url": "https://github.com/himasnhu-at"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/himasnhu-at/logger-cli/issues"
